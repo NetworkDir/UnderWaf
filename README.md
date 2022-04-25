@@ -16,4 +16,12 @@ Channel @RipBax
 ✅Errors supression.\
 ✅Cloudflare and BlazingFast Support.\
 ✅Payloads Updated.\
-✅New Detect Function.\
+✅New Detect Function.
+# Sample Usage
+```php
+// Before all your code starts.
+require('UnderWaf.php');
+$UnderWaf = new UnderWaf();
+$UnderWaf->start();
+?>
+// Your code below.
