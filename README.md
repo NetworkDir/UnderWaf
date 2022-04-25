@@ -1,6 +1,6 @@
 # UnderWaf - Web Application Firewall
 UnderWaf v0.1 Coded by @PacketLost.\
-Channel @RipBax
+Telegram Channel : @RipBax
 # Features
 ✅XSS Vulns Fixed.\
 ✅SQL Injection Fixed.\
