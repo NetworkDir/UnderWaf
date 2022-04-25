@@ -80,7 +80,7 @@ class UnderWaf {
 		$BadWords = $this->getArray('SQL');
 		foreach ($BadWords as $BadWord) {
 			// if (strpos(strtolower($Value), strtolower($BadWord)) !== false) {
-			if(str_contains($Value, $BadWord)){
+			if(!str_contains($Value, $BadWord)){
 				$this->vulnDetectedHTML($Method, $BadWord, $Value, 'SQL Injection');
 			}
 		}
@@ -167,7 +167,6 @@ class UnderWaf {
 	
 	function is_html($string) {
 		return $string != strip_tags($string) ? true:false;
-
 	}
 	function santizeString($String) {
 		$String = escapeshellarg($String);
