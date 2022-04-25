@@ -19,6 +19,7 @@ Channel @RipBax
 ✅New Detect Function.
 # Sample Usage
 ```php
+<?php
 // Before all your code starts.
 require('UnderWaf.php');
 $UnderWaf = new UnderWaf();
