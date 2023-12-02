@@ -1,7 +1,6 @@
 # UnderWaf - Web Application Firewall
-UnderWaf v0.1 Coded by @PacketLost.\
-Telegram Channel : @RipBax\
-Orginal : https://github.com/Alemalakra/xWAF
+UnderWaf v0.1 Coded by @NetworkDir.\
+Orginal (Forked) : https://github.com/Alemalakra/xWAF
 # Features
 ✅XSS Vulns Fixed.\
 ✅SQL Injection Fixed.\
